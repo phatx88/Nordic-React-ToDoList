@@ -1,3 +1,3 @@
 {
-    "HEROKU_SERVER" : "http://localhost:3000/api"
+    "HEROKU_SERVER" : "https://nodejs-backend-todolist.herokuapp.com/api"
 }
