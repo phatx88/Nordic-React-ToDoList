@@ -1,0 +1,32 @@
+.iconStyle{
+    top:6px;
+    left:20px;
+}
+
+.searchInput{
+    width: 225px;
+    transition-duration:0.5s;
+    padding-left: 60px;
+    
+}
+
+.searchInput:focus{
+    width: 325px;
+}
+
+.searchComponent{
+    position: relative;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchComponent{
+        display: none;
+    }
+}
+
+.avatarDiv{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}

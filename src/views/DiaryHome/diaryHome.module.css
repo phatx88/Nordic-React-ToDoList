@@ -1,0 +1,85 @@
+input{
+    outline:none;
+    border: 0px ;
+    border-radius: 20px;
+    height: 45px;
+    padding-left: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #b3d4fc71;
+    color: white;
+    font-size: 20px;
+    
+}
+
+::placeholder {
+    color: white;
+  }
+  
+textarea{
+    color: white;
+    outline: none;
+    border: 0px ;
+    resize: none;
+    border-radius: 20px;
+    background-color: #b3d4fc71;
+    padding: 10px 0px 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: #3690fd;
+    grid-template-columns: auto auto auto;
+}
+
+.cardContainer{
+    margin-top: 30px;
+}
+
+.container{
+    margin: 80px 20px 0px 20px;
+}
+
+.headerDiv{
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 80px;
+    transition-duration: 5s;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-image: url("https://i.pinimg.com/originals/4f/6d/05/4f6d052bb1b26150115888ea06d4c106.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.submitButton{
+    grid-area: footer;
+    border-radius: 20px;
+    background-color: #7db6fc;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45px; 
+    cursor: pointer;
+}
+
+.addIcon{
+    font-Size: 80px !important;
+    color: '#053877' !important; 
+    cursor: 'pointer' !important;
+}
+
+.addIcon:hover {
+    font-Size: 85px !important;
+  }
+  
